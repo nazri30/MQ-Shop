@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQ Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" 
+       rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">MQ SHOP</h2>
+                <p class="sub-heading">Hoodie & T-Shirt</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 250K</h4>
+                <p class="item">Hoodie</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 150K</h4>
+                <p class="item">T-Shirt</p>
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+             </div>
+            <div class="brand">
+                <h1>MQ Shop</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Galery</a></li>
+            </ul>
+
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Toturial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Sunt quis et ducimus. Repudiandae, voluptatem tenetur.</p>
+                
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Online Course</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Sunt quis et ducimus. Repudiandae, voluptatem tenetur.</p>
+                
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Podcast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Sunt quis et ducimus. Repudiandae, voluptatem tenetur.</p>
+                
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                <h3>March</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Sunt quis et ducimus. Repudiandae, voluptatem tenetur.</p>
+                
+            </div>
+
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://lzd-img-global.slatic.net/g/p/301c5ff23c3f279bbca91a4dd9fbcd40.jpg_200x200q80.jpg_.webp" alt="">
+            <img src="https://alakota.com/wp-content/uploads/2022/04/Screenshot_20220403-131005-200x200.png" alt="">
+            <img src="https://cf.shopee.co.id/file/496b982d81049e53d34cd459d9e7f1fa_tn" alt="">
+            <img src="https://www.animalcaresanctuary.org/website/wp-content/uploads/2019/12/black-dragon-hoodie-200x200.jpg" alt="">
+            <img src="https://lzd-img-global.slatic.net/g/p/30f9b1b82804b75b5aa8685a78e38dc1.jpg_200x200q80.jpg_.webp" alt="">
+            <img src="https://24hrtees.net/wp-content/uploads/2015/01/24-Hour-Tees.Groom-Shirt-White-Unisex-T-Shirt-200x200.jpg" alt="">
+            <img src="http://img.priceza.co.id/img1/2130004/0001/2130004-20220419104932-83657376209619203.jpg" alt="">
+            <img src="https://www.bombercommandmuseum.ca/wp-content/uploads/2019/03/CF-18-Hornet-T-Shirt-200x200.jpg" alt="">
+
+        </section>
+
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
